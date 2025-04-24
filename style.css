@@ -1,0 +1,155 @@
+/*Adi Biton 209355064
+  Tmira Ohana 206451585*/
+
+/* עיצוב בסיסי של העמוד */
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(244, 239, 241);
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    width: 800px;
+}
+
+/* עיצוב של הכותרת */
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* עיצוב שדה הקלט */
+input {
+    width: 50%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* צבעים לפי הבסיסים */
+#from #b, #to #t {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff5757;
+    color: white;
+    box-shadow: 4px 2px 10px 2px #465351;
+}
+
+#from #o, #to #e {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0cc0df;
+    color: white;
+    box-shadow: 4px 2px 10px 2px #465351;
+}
+
+#from #d, #to #n {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #8c41ff;
+    color: white;
+    box-shadow: 4px 2px 10px 2px #465351;
+}
+
+#from #h, #to #r {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffde59;
+    color: white;
+    box-shadow: 4px 2px 10px 2px #465351;
+}
+
+/* עיצוב התוצאה */
+#result {
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+/* עיצוב כפתור ההמרה */
+#convert button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 2px 10px 2px #465351;
+}
+
+#convert button:hover {
+    background-color: #555;
+}
+
+/* עיצוב כפתורים ואופציות */
+section {
+    margin-bottom: 25px;
+}
+
+button {
+    width: 140px; 
+    height: 45px; 
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+}
+
+/* כפתור שנבחר */
+.selected {
+    transform: scale(1.2);
+    border: 3px solid black;
+}
+
+/* עיצוב רספונסיבי לטלפונים */
+@media (max-width: 768px) {
+    .options {
+        flex-direction: column; 
+    }
+
+    button {
+        width: 80%; 
+        max-width: 250px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    input {
+        width: 80%;
+        max-width: 300px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+    
+ 

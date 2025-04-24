@@ -1,0 +1,67 @@
+<!--Adi Biton 209355064-->
+<!--Tmira Ohana 206451585-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+    <header id="header">
+         <h1> Base Converter </h1>
+        <p> Convert numbers between different bases (Binary, Decimal, Hex, Octal).</p>
+    </header> 
+
+    <!-- בחירת בסיס המקור -->
+    <section id="from">
+        <div class="options">
+            <b>FROM</b>
+            <button id="b">Binary(2)</button>
+            <button id="o">Octal(8)</button>
+            <button id="d">Decimal(10)</button>
+            <button id="h">Hexadecimal(16)</button>
+        </div>
+    </section>
+
+    <!-- הכנסת מספר להמרה -->
+    <section id="number">
+        <div>
+            <p>Enter a number <input id="userInput"></p>
+        </div>
+    </section>
+
+    <!-- בחירת בסיס היעד -->
+    <section id="to">
+        <div class="options">
+            <b>TO</b>
+            <button id="t">Binary(2)</button>
+            <button id="e">Octal(8)</button>
+            <button id="n">Decimal(10)</button>
+            <button id="r">Hexadecimal(16)</button>
+        </div>
+    </section>
+
+    <!-- הצגת התוצאה -->
+    <section id="result">
+        <div>
+            <b>Result:</b>
+        </div>
+    </section>
+
+    <!-- כפתור ההמרה -->
+    <section id="convert">
+        <div>
+            <button>Convert</button>
+        </div>
+    </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

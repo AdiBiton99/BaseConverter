@@ -33,10 +33,10 @@ toButtons.forEach(button => {
 // החזרת ערך הבסיס לפי הכפתור שנבחר
 function getBaseFromId(id) {
     switch (id) {
-        case 'b': case 't': return 2;
-        case 'o': case 'e': return 8;
-        case 'd': case 'n': return 10;
-        case 'h': case 'r': return 16;
+        case 'fromBin': case 'toBin': return 2;
+        case 'fromOct': case 'toOct': return 8;
+        case 'fromDec': case 'toDec': return 10;
+        case 'fromHex': case 'toHex': return 16;
         default: return null;
     }
 }

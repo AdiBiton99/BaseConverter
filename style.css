@@ -44,36 +44,52 @@ input {
 }
 
 /* צבעים לפי הבסיסים */
-#from #b, #to #t {
+#from #fromBin, #to #toBin {
     padding: 10px;
     border-radius: 5px;
-    background-color: #ff5757;
+    background-color: #ff3d9f;
     color: white;
-    box-shadow: 4px 2px 10px 2px #465351;
 }
 
-#from #o, #to #e {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #0cc0df;
-    color: white;
-    box-shadow: 4px 2px 10px 2px #465351;
+#from #fromBin:hover, #to #toBin:hover {
+    background-color: #ff57cdb6;
+    color: black;
 }
 
-#from #d, #to #n {
+#from #fromOct, #to #toOct {
     padding: 10px;
     border-radius: 5px;
-    background-color: #8c41ff;
+    background-color: #8e20a9;
     color: white;
-    box-shadow: 4px 2px 10px 2px #465351;
 }
 
-#from #h, #to #r {
+#from #fromOct:hover, #to #toOct:hover {
+    background-color: #ca0cdf86;
+    color: black;
+}
+
+#from #fromDec, #to #toDec {
     padding: 10px;
     border-radius: 5px;
-    background-color: #ffde59;
+    background-color: #08a543;
+    color: white; 
+}
+
+#from #fromDec:hover, #to #toDec:hover {
+    background-color: #0bc6438e;
+    color: black;
+}
+
+#from #fromHex, #to #toHex {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffd500;
     color: white;
-    box-shadow: 4px 2px 10px 2px #465351;
+}
+
+#from #fromHex:hover, #to #toHex:hover {
+    background-color: #ffde59f4;
+    color: black;
 }
 
 /* עיצוב התוצאה */
